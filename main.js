@@ -6,4 +6,6 @@ import BoardGame from './src/objects/BoardGame';
 const $root = document.querySelector("#root");
 const $htmlBoardGame = BoardGame(4);
 
+const name = "andre"
+
 $root.insertAdjacentHTML("beforeend", $htmlBoardGame);
